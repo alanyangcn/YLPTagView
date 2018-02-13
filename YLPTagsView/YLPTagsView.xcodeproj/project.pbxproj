@@ -14,6 +14,7 @@
 		DFD26E172032A9A000ECE828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD26E152032A9A000ECE828 /* LaunchScreen.storyboard */; };
 		DFD26E222032A9A000ECE828 /* YLPTagsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD26E212032A9A000ECE828 /* YLPTagsViewTests.swift */; };
 		DFD26E2D2032A9A000ECE828 /* YLPTagsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD26E2C2032A9A000ECE828 /* YLPTagsViewUITests.swift */; };
+		DFD26E3B2032A9DE00ECE828 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD26E3A2032A9DE00ECE828 /* TagsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DFD26E282032A9A000ECE828 /* YLPTagsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLPTagsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD26E2C2032A9A000ECE828 /* YLPTagsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLPTagsViewUITests.swift; sourceTree = "<group>"; };
 		DFD26E2E2032A9A000ECE828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD26E3A2032A9DE00ECE828 /* TagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DFD26E0C2032A9A000ECE828 /* AppDelegate.swift */,
 				DFD26E0E2032A9A000ECE828 /* ViewController.swift */,
+				DFD26E3A2032A9DE00ECE828 /* TagsView.swift */,
 				DFD26E102032A9A000ECE828 /* Main.storyboard */,
 				DFD26E132032A9A000ECE828 /* Assets.xcassets */,
 				DFD26E152032A9A000ECE828 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				DFD26E0F2032A9A000ECE828 /* ViewController.swift in Sources */,
 				DFD26E0D2032A9A000ECE828 /* AppDelegate.swift in Sources */,
+				DFD26E3B2032A9DE00ECE828 /* TagsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
